@@ -1,16 +1,11 @@
 # ninja log v6
-4	561	1734192719404092448	CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o	23ecfe8028a1aeb6
-14	392	1734192807039862840	CMakeFiles/myshell.dir/src/main.cpp.o	49bb7e2ec1aff130
-4	573	1734192719403563409	CMakeFiles/myshell.dir/src/builtins/cd.cpp.o	646f152cda1f3598
+4	463	1734217189822073986	CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o	23ecfe8028a1aeb6
+464	777	1734217190281293068	CMakeFiles/myshell.dir/src/main.cpp.o	49bb7e2ec1aff130
+3	501	1734217189821140528	CMakeFiles/myshell.dir/src/builtins/cd.cpp.o	646f152cda1f3598
+4	532	1734217189821760278	CMakeFiles/myshell.dir/src/builtins/ls.cpp.o	fbfe264515685710
 8	695	1734192290839494743	CMakeFiles/myshell.dir/src/tab_completion.cpp.o	6374a0aa031e3771
-4	582	1734192719403982532	CMakeFiles/myshell.dir/src/builtins/ls.cpp.o	fbfe264515685710
-4	568	1734192719403859074	CMakeFiles/myshell.dir/src/builtins/echo.cpp.o	f5f092a289c92161
-392	421	1734192807417995562	myshell	5241ba4d6935f84d
-3	56	1734192833407844855	build.ninja	9004a3ff37a9f01d
-5	642	1734193409877963574	CMakeFiles/myshell.dir/src/builtins/cat.cpp.o	fd69eadda89ffaed
-7	648	1734193409880148862	CMakeFiles/myshell.dir/src/builtins/echo.cpp.o	f5f092a289c92161
-9	651	1734193409881870243	CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o	23ecfe8028a1aeb6
-5	654	1734193409878673017	CMakeFiles/myshell.dir/src/builtins/cd.cpp.o	646f152cda1f3598
-9	661	1734193409882214153	CMakeFiles/myshell.dir/src/main.cpp.o	49bb7e2ec1aff130
-8	667	1734193409881608332	CMakeFiles/myshell.dir/src/builtins/ls.cpp.o	fbfe264515685710
-667	768	1734193410540033838	myshell	f76f7afa0bc2d9d5
+4	495	1734217189821433153	CMakeFiles/myshell.dir/src/builtins/echo.cpp.o	f5f092a289c92161
+3	498	1734217189820768861	CMakeFiles/myshell.dir/src/builtins/cat.cpp.o	fd69eadda89ffaed
+3	56	1734217583923954051	build.ninja	9004a3ff37a9f01d
+777	926	1734217190594885138	myshell	499b792428c28a5c
+4	487	1734217189821258862	CMakeFiles/myshell.dir/src/builtins/clear.cpp.o	564c72e69a6d2ae5
