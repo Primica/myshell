@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/arthurmalfere/CLionProjects/myshell/src/builtins/cat.cpp" "CMakeFiles/myshell.dir/src/builtins/cat.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/builtins/cat.cpp.o.d"
   "/Users/arthurmalfere/CLionProjects/myshell/src/builtins/cd.cpp" "CMakeFiles/myshell.dir/src/builtins/cd.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/builtins/cd.cpp.o.d"
   "/Users/arthurmalfere/CLionProjects/myshell/src/builtins/echo.cpp" "CMakeFiles/myshell.dir/src/builtins/echo.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/builtins/echo.cpp.o.d"
   "/Users/arthurmalfere/CLionProjects/myshell/src/builtins/ls.cpp" "CMakeFiles/myshell.dir/src/builtins/ls.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/builtins/ls.cpp.o.d"

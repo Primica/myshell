@@ -69,10 +69,24 @@ include CMakeFiles/myshell.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/myshell.dir/flags.make
 
+CMakeFiles/myshell.dir/src/builtins/cat.cpp.o: CMakeFiles/myshell.dir/flags.make
+CMakeFiles/myshell.dir/src/builtins/cat.cpp.o: /Users/arthurmalfere/CLionProjects/myshell/src/builtins/cat.cpp
+CMakeFiles/myshell.dir/src/builtins/cat.cpp.o: CMakeFiles/myshell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myshell.dir/src/builtins/cat.cpp.o"
+	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myshell.dir/src/builtins/cat.cpp.o -MF CMakeFiles/myshell.dir/src/builtins/cat.cpp.o.d -o CMakeFiles/myshell.dir/src/builtins/cat.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/builtins/cat.cpp
+
+CMakeFiles/myshell.dir/src/builtins/cat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myshell.dir/src/builtins/cat.cpp.i"
+	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arthurmalfere/CLionProjects/myshell/src/builtins/cat.cpp > CMakeFiles/myshell.dir/src/builtins/cat.cpp.i
+
+CMakeFiles/myshell.dir/src/builtins/cat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myshell.dir/src/builtins/cat.cpp.s"
+	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurmalfere/CLionProjects/myshell/src/builtins/cat.cpp -o CMakeFiles/myshell.dir/src/builtins/cat.cpp.s
+
 CMakeFiles/myshell.dir/src/builtins/cd.cpp.o: CMakeFiles/myshell.dir/flags.make
 CMakeFiles/myshell.dir/src/builtins/cd.cpp.o: /Users/arthurmalfere/CLionProjects/myshell/src/builtins/cd.cpp
 CMakeFiles/myshell.dir/src/builtins/cd.cpp.o: CMakeFiles/myshell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myshell.dir/src/builtins/cd.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myshell.dir/src/builtins/cd.cpp.o"
 	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myshell.dir/src/builtins/cd.cpp.o -MF CMakeFiles/myshell.dir/src/builtins/cd.cpp.o.d -o CMakeFiles/myshell.dir/src/builtins/cd.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/builtins/cd.cpp
 
 CMakeFiles/myshell.dir/src/builtins/cd.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/myshell.dir/src/builtins/cd.cpp.s: cmake_force
 CMakeFiles/myshell.dir/src/builtins/echo.cpp.o: CMakeFiles/myshell.dir/flags.make
 CMakeFiles/myshell.dir/src/builtins/echo.cpp.o: /Users/arthurmalfere/CLionProjects/myshell/src/builtins/echo.cpp
 CMakeFiles/myshell.dir/src/builtins/echo.cpp.o: CMakeFiles/myshell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myshell.dir/src/builtins/echo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myshell.dir/src/builtins/echo.cpp.o"
 	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myshell.dir/src/builtins/echo.cpp.o -MF CMakeFiles/myshell.dir/src/builtins/echo.cpp.o.d -o CMakeFiles/myshell.dir/src/builtins/echo.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/builtins/echo.cpp
 
 CMakeFiles/myshell.dir/src/builtins/echo.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/myshell.dir/src/builtins/echo.cpp.s: cmake_force
 CMakeFiles/myshell.dir/src/builtins/ls.cpp.o: CMakeFiles/myshell.dir/flags.make
 CMakeFiles/myshell.dir/src/builtins/ls.cpp.o: /Users/arthurmalfere/CLionProjects/myshell/src/builtins/ls.cpp
 CMakeFiles/myshell.dir/src/builtins/ls.cpp.o: CMakeFiles/myshell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myshell.dir/src/builtins/ls.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myshell.dir/src/builtins/ls.cpp.o"
 	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myshell.dir/src/builtins/ls.cpp.o -MF CMakeFiles/myshell.dir/src/builtins/ls.cpp.o.d -o CMakeFiles/myshell.dir/src/builtins/ls.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/builtins/ls.cpp
 
 CMakeFiles/myshell.dir/src/builtins/ls.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/myshell.dir/src/builtins/ls.cpp.s: cmake_force
 CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o: CMakeFiles/myshell.dir/flags.make
 CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o: /Users/arthurmalfere/CLionProjects/myshell/src/builtins/pwd.cpp
 CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o: CMakeFiles/myshell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o"
 	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o -MF CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o.d -o CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/builtins/pwd.cpp
 
 CMakeFiles/myshell.dir/src/builtins/pwd.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/myshell.dir/src/builtins/pwd.cpp.s: cmake_force
 CMakeFiles/myshell.dir/src/main.cpp.o: CMakeFiles/myshell.dir/flags.make
 CMakeFiles/myshell.dir/src/main.cpp.o: /Users/arthurmalfere/CLionProjects/myshell/src/main.cpp
 CMakeFiles/myshell.dir/src/main.cpp.o: CMakeFiles/myshell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myshell.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/myshell.dir/src/main.cpp.o"
 	/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myshell.dir/src/main.cpp.o -MF CMakeFiles/myshell.dir/src/main.cpp.o.d -o CMakeFiles/myshell.dir/src/main.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/main.cpp
 
 CMakeFiles/myshell.dir/src/main.cpp.i: cmake_force
@@ -141,6 +155,7 @@ CMakeFiles/myshell.dir/src/main.cpp.s: cmake_force
 
 # Object files for target myshell
 myshell_OBJECTS = \
+"CMakeFiles/myshell.dir/src/builtins/cat.cpp.o" \
 "CMakeFiles/myshell.dir/src/builtins/cd.cpp.o" \
 "CMakeFiles/myshell.dir/src/builtins/echo.cpp.o" \
 "CMakeFiles/myshell.dir/src/builtins/ls.cpp.o" \
@@ -150,6 +165,7 @@ myshell_OBJECTS = \
 # External object files for target myshell
 myshell_EXTERNAL_OBJECTS =
 
+myshell: CMakeFiles/myshell.dir/src/builtins/cat.cpp.o
 myshell: CMakeFiles/myshell.dir/src/builtins/cd.cpp.o
 myshell: CMakeFiles/myshell.dir/src/builtins/echo.cpp.o
 myshell: CMakeFiles/myshell.dir/src/builtins/ls.cpp.o
@@ -157,7 +173,7 @@ myshell: CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o
 myshell: CMakeFiles/myshell.dir/src/main.cpp.o
 myshell: CMakeFiles/myshell.dir/build.make
 myshell: CMakeFiles/myshell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable myshell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable myshell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myshell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

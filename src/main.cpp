@@ -10,31 +10,38 @@ std::vector<std::string> split(const std::string& line) {
     return args;
 }
 
-void run (const std::vector<std::string>& args) {
-    if (args[0] == "echo") {
-        echo(args);
-    } else if (args[0] == "cd") {
-        cd(args);
-    } else if (args[0] == "pwd") {
-        pwd(args);
-    } else if (args[0] == "ls") {
-        ls(args);
-    } else {
-        std::cerr << args[0] << ": command not found" << std::endl;
+void run(const std::vector<std::string>& args) {
+    static const std::vector<std::pair<std::string, void(*)(const std::vector<std::string>&)>> commands = {
+        {"echo", echo},
+        {"cd", cd},
+        {"pwd", pwd},
+        {"ls", ls},
+        {"cat", cat}
+    };
+
+    for (const auto&[fst, snd] : commands) {
+        if (args[0] == fst) {
+            snd(args);
+            return;
+        }
     }
+
+    std::cerr << args[0] << ": command not found" << std::endl;
 }
 
 int main() {
-    const std::string prompt = show_current_path() + std::string(" $ ");
+    while (true) {
+        std::string prompt = std::string(show_current_path()) + " myshell> ";
         char* line = readline(prompt.c_str());
         if (!line) {
-            return 1;
+            break;
         }
-        add_history(line);
-        const std::string str_line(line);
-        const std::vector<std::string> args = split(str_line);
-        run(args);
+        if (line[0]) {
+            add_history(line);
+            std::vector<std::string> args = split(line);
+            run(args);
+        }
         free(line);
+    }
     return 0;
-
 }

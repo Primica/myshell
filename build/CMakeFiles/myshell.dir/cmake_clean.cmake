@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/myshell.dir/src/builtins/cat.cpp.o"
+  "CMakeFiles/myshell.dir/src/builtins/cat.cpp.o.d"
   "CMakeFiles/myshell.dir/src/builtins/cd.cpp.o"
   "CMakeFiles/myshell.dir/src/builtins/cd.cpp.o.d"
   "CMakeFiles/myshell.dir/src/builtins/echo.cpp.o"

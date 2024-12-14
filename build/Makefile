@@ -129,6 +129,30 @@ myshell/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/build
 .PHONY : myshell/fast
 
+src/builtins/cat.o: src/builtins/cat.cpp.o
+.PHONY : src/builtins/cat.o
+
+# target to build an object file
+src/builtins/cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/src/builtins/cat.cpp.o
+.PHONY : src/builtins/cat.cpp.o
+
+src/builtins/cat.i: src/builtins/cat.cpp.i
+.PHONY : src/builtins/cat.i
+
+# target to preprocess a source file
+src/builtins/cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/src/builtins/cat.cpp.i
+.PHONY : src/builtins/cat.cpp.i
+
+src/builtins/cat.s: src/builtins/cat.cpp.s
+.PHONY : src/builtins/cat.s
+
+# target to generate assembly for a file
+src/builtins/cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/src/builtins/cat.cpp.s
+.PHONY : src/builtins/cat.cpp.s
+
 src/builtins/cd.o: src/builtins/cd.cpp.o
 .PHONY : src/builtins/cd.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... myshell"
+	@echo "... src/builtins/cat.o"
+	@echo "... src/builtins/cat.i"
+	@echo "... src/builtins/cat.s"
 	@echo "... src/builtins/cd.o"
 	@echo "... src/builtins/cd.i"
 	@echo "... src/builtins/cd.s"

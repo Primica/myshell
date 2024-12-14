@@ -28,5 +28,6 @@ char *show_current_path();
 void cd(const std::vector<std::string>& args);
 void pwd(const std::vector<std::string>& args);
 void ls(const std::vector<std::string>& args);
+void cat(const std::vector<std::string>& args);
 
 #endif //ECHO_H
