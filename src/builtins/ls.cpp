@@ -9,7 +9,7 @@ void ls(const std::vector<std::string>& args) {
         std::cerr << "ls: too many arguments" << std::endl;
         return;
     }
-    for (const std::filesystem::directory_iterator it("."); const auto& entry : it) {
+    for (const auto& entry : std::filesystem::directory_iterator(".")) {
         std::cout << entry.path().filename().string() << "\t";
     }
     std::cout << std::endl;
