@@ -24,44 +24,17 @@ void run (const std::vector<std::string>& args) {
     }
 }
 
-TabCompletion tabCompletion;
-
-char** completion(const char* text, const int start, int end) {
-    rl_attempted_completion_over = 1;
-    char** matches = nullptr;
-    if (start == 0) {
-        matches = rl_completion_matches(text, [](const char* text, int state) -> char* {
-            static size_t list_index, len;
-            if (!state) {
-                list_index = 0;
-                len = strlen(text);
-            }
-            while (list_index < tabCompletion.commands.size()) {
-                const std::string& cmd = tabCompletion.commands[list_index++];
-                if (cmd.compare(0, len, text) == 0) {
-                    return strdup(cmd.c_str());
-                }
-            }
-            return nullptr;
-        });
-    }
-    return matches;
-}
-
 int main() {
-    rl_attempted_completion_function = completion;
-    while (true) {
-        std::string prompt = show_current_path() + " $ ";
-        char* input = readline(prompt.c_str());
-        if (!input) {
-            break;
+    const std::string prompt = show_current_path() + std::string(" $ ");
+        char* line = readline(prompt.c_str());
+        if (!line) {
+            return 1;
         }
-        std::string line(input);
-        free(input);
-        if (line == "exit") {
-            break;
-        }
-        run(split(line));
-    }
+        add_history(line);
+        const std::string str_line(line);
+        const std::vector<std::string> args = split(str_line);
+        run(args);
+        free(line);
     return 0;
+
 }

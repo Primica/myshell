@@ -17,7 +17,6 @@ add_executable(myshell ${SOURCES}
         src/builtins/cd.cpp
         src/builtins/pwd.cpp
         src/builtins/ls.cpp
-        src/tab_completion.cpp
 )
 
 target_link_libraries(myshell readline)
