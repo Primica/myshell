@@ -273,6 +273,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/readline_utils.o: src/readline_utils.cpp.o
+.PHONY : src/readline_utils.o
+
+# target to build an object file
+src/readline_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/src/readline_utils.cpp.o
+.PHONY : src/readline_utils.cpp.o
+
+src/readline_utils.i: src/readline_utils.cpp.i
+.PHONY : src/readline_utils.i
+
+# target to preprocess a source file
+src/readline_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/src/readline_utils.cpp.i
+.PHONY : src/readline_utils.cpp.i
+
+src/readline_utils.s: src/readline_utils.cpp.s
+.PHONY : src/readline_utils.s
+
+# target to generate assembly for a file
+src/readline_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myshell.dir/build.make CMakeFiles/myshell.dir/src/readline_utils.cpp.s
+.PHONY : src/readline_utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +324,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/readline_utils.o"
+	@echo "... src/readline_utils.i"
+	@echo "... src/readline_utils.s"
 .PHONY : help
 
 

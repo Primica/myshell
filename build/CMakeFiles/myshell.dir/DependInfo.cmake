@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/arthurmalfere/CLionProjects/myshell/src/builtins/ls.cpp" "CMakeFiles/myshell.dir/src/builtins/ls.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/builtins/ls.cpp.o.d"
   "/Users/arthurmalfere/CLionProjects/myshell/src/builtins/pwd.cpp" "CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o.d"
   "/Users/arthurmalfere/CLionProjects/myshell/src/main.cpp" "CMakeFiles/myshell.dir/src/main.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/main.cpp.o.d"
+  "/Users/arthurmalfere/CLionProjects/myshell/src/readline_utils.cpp" "CMakeFiles/myshell.dir/src/readline_utils.cpp.o" "gcc" "CMakeFiles/myshell.dir/src/readline_utils.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

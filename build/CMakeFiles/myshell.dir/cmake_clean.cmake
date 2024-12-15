@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o.d"
   "CMakeFiles/myshell.dir/src/main.cpp.o"
   "CMakeFiles/myshell.dir/src/main.cpp.o.d"
+  "CMakeFiles/myshell.dir/src/readline_utils.cpp.o"
+  "CMakeFiles/myshell.dir/src/readline_utils.cpp.o.d"
   "myshell"
   "myshell.pdb"
 )

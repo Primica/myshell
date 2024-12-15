@@ -91,6 +91,13 @@ build CMakeFiles/myshell.dir/src/main.cpp.o: CXX_COMPILER__myshell_unscanned_Deb
   OBJECT_DIR = CMakeFiles/myshell.dir
   OBJECT_FILE_DIR = CMakeFiles/myshell.dir/src
 
+build CMakeFiles/myshell.dir/src/readline_utils.cpp.o: CXX_COMPILER__myshell_unscanned_Debug /Users/arthurmalfere/CLionProjects/myshell/src/readline_utils.cpp || cmake_object_order_depends_target_myshell
+  DEP_FILE = CMakeFiles/myshell.dir/src/readline_utils.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  INCLUDES = -I/opt/homebrew/opt/readline/include
+  OBJECT_DIR = CMakeFiles/myshell.dir
+  OBJECT_FILE_DIR = CMakeFiles/myshell.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target myshell
@@ -99,7 +106,7 @@ build CMakeFiles/myshell.dir/src/main.cpp.o: CXX_COMPILER__myshell_unscanned_Deb
 #############################################
 # Link the executable myshell
 
-build myshell: CXX_EXECUTABLE_LINKER__myshell_Debug CMakeFiles/myshell.dir/src/builtins/cat.cpp.o CMakeFiles/myshell.dir/src/builtins/cd.cpp.o CMakeFiles/myshell.dir/src/builtins/echo.cpp.o CMakeFiles/myshell.dir/src/builtins/ls.cpp.o CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o CMakeFiles/myshell.dir/src/main.cpp.o
+build myshell: CXX_EXECUTABLE_LINKER__myshell_Debug CMakeFiles/myshell.dir/src/builtins/cat.cpp.o CMakeFiles/myshell.dir/src/builtins/cd.cpp.o CMakeFiles/myshell.dir/src/builtins/echo.cpp.o CMakeFiles/myshell.dir/src/builtins/ls.cpp.o CMakeFiles/myshell.dir/src/builtins/pwd.cpp.o CMakeFiles/myshell.dir/src/main.cpp.o CMakeFiles/myshell.dir/src/readline_utils.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
   LINK_FLAGS = -L/opt/homebrew/opt/openssl@3/lib
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/opt/readline/lib  -lreadline

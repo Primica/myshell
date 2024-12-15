@@ -18,6 +18,7 @@ add_executable(myshell ${SOURCES}
         src/builtins/pwd.cpp
         src/builtins/ls.cpp
         src/builtins/cat.cpp
+        src/readline_utils.cpp
 )
 
 target_link_libraries(myshell readline)

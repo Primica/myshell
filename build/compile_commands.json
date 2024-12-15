@@ -34,5 +34,11 @@
   "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -I/opt/homebrew/opt/readline/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/myshell.dir/src/main.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/main.cpp",
   "file": "/Users/arthurmalfere/CLionProjects/myshell/src/main.cpp",
   "output": "CMakeFiles/myshell.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/arthurmalfere/CLionProjects/myshell/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -I/opt/homebrew/opt/readline/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/myshell.dir/src/readline_utils.cpp.o -c /Users/arthurmalfere/CLionProjects/myshell/src/readline_utils.cpp",
+  "file": "/Users/arthurmalfere/CLionProjects/myshell/src/readline_utils.cpp",
+  "output": "CMakeFiles/myshell.dir/src/readline_utils.cpp.o"
 }
 ]

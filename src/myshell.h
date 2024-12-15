@@ -17,10 +17,8 @@
 #include <cstring>
 #include <algorithm>
 #include <fstream>
-#include <readline/readline.h>
-#include <readline/history.h>
-
-
+#include <cerrno>
+#include <string>
 
 // Built-in functions
 void echo(const std::vector<std::string>& args);
@@ -29,5 +27,9 @@ void cd(const std::vector<std::string>& args);
 void pwd(const std::vector<std::string>& args);
 void ls(const std::vector<std::string>& args);
 void cat(const std::vector<std::string>& args);
+
+// Helper functions
+char* readline(const char* prompt);
+void add_history(const char* line);
 
 #endif //ECHO_H
