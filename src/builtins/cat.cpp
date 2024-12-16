@@ -2,7 +2,7 @@
 // Created by Arthur Malfere on 14/12/2024.
 //
 
-#include "../myshell.h"
+#include "myshell.h"
 
 void cat(const std::vector<std::string>& args) {
     if (args.size() == 1) {

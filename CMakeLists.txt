@@ -8,17 +8,9 @@ set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} ${READLINE_ROOT})
 
 file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.h")
 
-include_directories(${READLINE_ROOT}/include)
+include_directories(${READLINE_ROOT}/include ${PROJECT_SOURCE_DIR}/include)
 link_directories(${READLINE_ROOT}/lib)
 
-add_executable(myshell ${SOURCES}
-        src/builtins/echo.cpp
-        src/myshell.h
-        src/builtins/cd.cpp
-        src/builtins/pwd.cpp
-        src/builtins/ls.cpp
-        src/builtins/cat.cpp
-        src/readline_utils.cpp
-)
+add_executable(myshell ${SOURCES})
 
 target_link_libraries(myshell readline)

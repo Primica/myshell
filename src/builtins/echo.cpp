@@ -2,7 +2,7 @@
 // Created by Arthur Malfere on 12/12/2024.
 //
 
-#include "../myshell.h"
+#include "myshell.h"
 
 void echo(const std::vector<std::string>& args) {
     bool append = false;

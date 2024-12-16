@@ -4,7 +4,7 @@
 # compile CXX with /opt/homebrew/bin/aarch64-apple-darwin24-g++-14
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/opt/readline/include
+CXX_INCLUDES = -I/opt/homebrew/opt/readline/include -I/Users/arthurmalfere/CLionProjects/myshell/include
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
 
