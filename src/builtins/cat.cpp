@@ -10,6 +10,11 @@ void cat(const std::vector<std::string>& args) {
         return;
     }
     for (size_t i = 1; i < args.size(); i++) {
+        struct stat s;
+        if (stat(args[i].c_str(), &s) == 0 && S_ISDIR(s.st_mode)) {
+            std::cerr << "cat: " << args[i] << ": Is a directory" << std::endl;
+            continue;
+        }
         std::ifstream file(args[i]);
         if (!file.is_open()) {
             std::cerr << "cat: " << args[i] << ": No such file or directory" << std::endl;
