@@ -17,7 +17,7 @@ void run(const std::vector<std::string>& args) {
         {"pwd", pwd},
         {"ls", ls},
         {"cat", cat}
-        };
+    };
 
     for (const auto&[fst, snd] : commands) {
         if (args[0] == fst) {
