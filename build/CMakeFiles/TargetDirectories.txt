@@ -1,3 +1,0 @@
-/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles/myshell.dir
-/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles/edit_cache.dir
-/Users/arthurmalfere/CLionProjects/myshell/build/CMakeFiles/rebuild_cache.dir
