@@ -13,6 +13,7 @@
 #include <unistd.h>
 #include <climits>
 #include <sys/stat.h>
+#include <sys/types.h>
 #include <fcntl.h>
 #include <cstring>
 #include <algorithm>
@@ -27,6 +28,10 @@ void cd(const std::vector<std::string>& args);
 void pwd(const std::vector<std::string>& args);
 void ls(const std::vector<std::string>& args);
 void cat(const std::vector<std::string>& args);
+
+// Directory related functions
+void mkdir(const std::vector<std::string>& args);
+void rmdir(const std::vector<std::string>& args);
 
 // Helper functions
 char* readline(const char* prompt);

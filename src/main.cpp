@@ -16,7 +16,9 @@ void run(const std::vector<std::string>& args) {
         {"cd", cd},
         {"pwd", pwd},
         {"ls", ls},
-        {"cat", cat}
+        {"cat", cat},
+        {"mkdir", mkdir},
+        {"rmdir", rmdir},
     };
 
     for (const auto&[fst, snd] : commands) {
