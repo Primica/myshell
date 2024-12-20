@@ -19,6 +19,7 @@ void run(const std::vector<std::string>& args) {
         {"cat", cat},
         {"mkdir", mkdir},
         {"rmdir", rmdir},
+        {"find", find}
     };
 
     for (const auto&[fst, snd] : commands) {

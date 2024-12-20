@@ -33,6 +33,9 @@ void cat(const std::vector<std::string>& args);
 void mkdir(const std::vector<std::string>& args);
 void rmdir(const std::vector<std::string>& args);
 
+// File related functions
+void find(const std::vector<std::string>& args);
+
 // Helper functions
 char* readline(const char* prompt);
 void add_history(const char* line);

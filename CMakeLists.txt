@@ -11,6 +11,7 @@ file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.h")
 include_directories(${READLINE_ROOT}/include ${PROJECT_SOURCE_DIR}/include)
 link_directories(${READLINE_ROOT}/lib)
 
-add_executable(myshell ${SOURCES})
+add_executable(myshell ${SOURCES}
+        src/builtins/find.cpp)
 
 target_link_libraries(myshell readline)
