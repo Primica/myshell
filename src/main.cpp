@@ -1,6 +1,6 @@
 #include "myshell.h"
 
-std::vector<std::string> split(const std::string& line) {
+std::vector<std::string> split(const std::string &line) {
     std::vector<std::string> args;
     std::string arg;
     std::stringstream ss(line);
@@ -10,8 +10,8 @@ std::vector<std::string> split(const std::string& line) {
     return args;
 }
 
-void run(const std::vector<std::string>& args) {
-    static const std::vector<std::pair<std::string, void(*)(const std::vector<std::string>&)>> commands = {
+void run(const std::vector<std::string> &args) {
+    static const std::vector<std::pair<std::string, void (*)(const std::vector<std::string> &)>> commands = {
         {"echo", echo},
         {"cd", cd},
         {"pwd", pwd},
@@ -19,10 +19,10 @@ void run(const std::vector<std::string>& args) {
         {"cat", cat},
         {"mkdir", mkdir},
         {"rmdir", rmdir},
-        {"find", find}
-    };
+        {"find", find},
+        {"grep", grep}};
 
-    for (const auto&[fst, snd] : commands) {
+    for (const auto & [ fst, snd ] : commands) {
         if (args[0] == fst) {
             snd(args);
             return;
@@ -35,7 +35,7 @@ void run(const std::vector<std::string>& args) {
 int main() {
     while (true) {
         std::string prompt = std::string(show_current_path()) + " myshell> ";
-        char* line = readline(prompt.c_str());
+        char *line = readline(prompt.c_str());
         if (!line) {
             break;
         }

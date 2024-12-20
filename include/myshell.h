@@ -20,24 +20,26 @@
 #include <fstream>
 #include <cerrno>
 #include <string>
+#include <regex>
 
 // Built-in functions
-void echo(const std::vector<std::string>& args);
+void echo(const std::vector<std::string> &args);
 char *show_current_path();
-void cd(const std::vector<std::string>& args);
-void pwd(const std::vector<std::string>& args);
-void ls(const std::vector<std::string>& args);
-void cat(const std::vector<std::string>& args);
+void cd(const std::vector<std::string> &args);
+void pwd(const std::vector<std::string> &args);
+void ls(const std::vector<std::string> &args);
+void cat(const std::vector<std::string> &args);
+void grep(const std::vector<std::string> &args);
 
 // Directory related functions
-void mkdir(const std::vector<std::string>& args);
-void rmdir(const std::vector<std::string>& args);
+void mkdir(const std::vector<std::string> &args);
+void rmdir(const std::vector<std::string> &args);
 
 // File related functions
-void find(const std::vector<std::string>& args);
+void find(const std::vector<std::string> &args);
 
 // Helper functions
-char* readline(const char* prompt);
-void add_history(const char* line);
+char *readline(const char *prompt);
+void add_history(const char *line);
 
 #endif //ECHO_H
